@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2MIN</title>
+<style>
+* { box-sizing: border-box; }
+html, body { margin: 0; min-height: 100%; }
+body { min-height: 100svh; display: grid; place-items: center; padding: 24px; background: #fff; }
+.video-frame { width: min(960px, 100%); aspect-ratio: 16 / 9; border: 1px solid #222; background: #fff; }
+.video-frame video, .video-frame iframe { display: block; width: 100%; height: 100%; border: 0; object-fit: contain; }
+</style>
+</head>
+<body>
+<main class="video-frame" aria-label="Video placeholder">
+<!-- Add a video here later, for example:
+<video controls playsinline preload="metadata" src="./video.mp4"></video>
+-->
+</main>
+</body>
+</html>
